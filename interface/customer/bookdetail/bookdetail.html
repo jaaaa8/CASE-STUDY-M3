@@ -2,9 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>BookDetail</title>
+    <style>
+        .sidebar{
+            position: sticky;
+        }
+    </style>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-md bg-danger navbar-dark mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="">
+            <i class="bi bi-book"></i>
+            <p>TTT.COM</p>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!--search-->
+                <form class="d-flex mx-auto" role="search" style="width:500px">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm sách..." aria-label="Search">
+                    <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
 
+                <li>
+                    <a class="btn text-white" href=""><i class="bi bi-bell-fill me-1"></i>Thông Báo</a>
+                </li>
+                <li>
+                    <a class="btn text-white" href=""><i class="bi bi-cart-fill me-1"></i>Giỏ Hàng</a>
+                </li>
+                <!-- Account Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="accountDropdown" role="button"
+                       data-bs-toggle="dropdown">
+                        <i class="bi bi-person-circle me-1"></i>Tài Khoản
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                        <li><a class="dropdown-item" href="../login/login.html">Đăng Nhập</a></li>
+                        <li><a class="dropdown-item" href="../login/login.html">Đăng Ký</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 ">
+            <div class="sidebar">
+                <div class="card">
+                    <img src="holmes.jpg" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <button><a href="bookdetail.html">Book Detail</a></button>
+                        <button><a href="bookdetail.html">Book Detail</a></button>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Add a description of the image here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <h2> HOLMES </h2>
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <div class="carousel">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="holmes.jpg" class="card-img-top" alt=""/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="holmes.jpg" class="card-img-top" alt=""/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="holmes.jpg" class="card-img-top" alt=""/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img src="holmes.jpg" class="card-img-top" alt=""/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-danger text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">&copy; 2025 TTT Cửa Hàng Sách Trực Tuyến</p>
+        <p class="mb-0">
+            <a href="" class="text-white text-decoration-none">Liên Hệ Với Chúng Tôi</a>
+        </p>
+    </div>
+</footer>
+
+<script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
